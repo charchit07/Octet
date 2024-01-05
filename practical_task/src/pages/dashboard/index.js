@@ -22,7 +22,7 @@ export default function Footer() {
 	};
 
   const getData = () => {
-    fetch(`http://localhost:7500/job`, {
+    fetch(`https://frightened-jade-kangaroo.cyclic.app/job`, {
      
     })
       .then((res) => res.json())
@@ -39,7 +39,7 @@ export default function Footer() {
   };
   
   const chartData=()=>{
-    fetch(`http://localhost:7500/chartdata`,{  
+    fetch(`https://frightened-jade-kangaroo.cyclic.app/chartdata`,{  
     })
     .then((res) => res.json())
      .then((res) => {
@@ -51,7 +51,7 @@ export default function Footer() {
  }
 
   const countData=()=>{
-     fetch(`http://localhost:7500/count`,{  
+     fetch(`https://frightened-jade-kangaroo.cyclic.app/count`,{  
      })
      .then((res) => res.json())
       .then((res) => {
